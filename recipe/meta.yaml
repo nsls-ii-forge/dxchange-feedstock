@@ -1,6 +1,6 @@
 {% set name = "dxchange" %}
-{% set version = "0.1.5" %}
-{% set sha256 = "023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387" %}
+{% set version = "0.1.6" %}
+{% set sha256 = "8ce7c1ce3bdb483f285ba7483657691907e93c57c85067fe7bfa5756c2fc429f" %}
 
 package:
   name: {{ name|lower }}
@@ -11,9 +11,9 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
