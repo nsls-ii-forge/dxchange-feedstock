@@ -5,11 +5,13 @@ Home: http://dxchange.readthedocs.org
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/nsls-ii-forge/dxchange-feedstock/blob/master/LICENSE.txt)
 
 Summary: Data I/O for tomography
 
+Development: https://github.com/data-exchange/dxchange
 
+Documentation: http://dxchange.readthedocs.org
 
 Current build status
 ====================
